@@ -1,0 +1,423 @@
+/* Nweike Codes */
+
+*{
+    font-family: "Roboto";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heroSection{
+    width: 100%;
+    height: 787px;
+    background: url(./hero\ section\ background.png);
+    box-sizing: border-box;
+    padding: 0px 60px;
+    padding-top: 160px;
+}
+
+.navlist{
+    width: 60%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 65px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.navlist li:hover{
+    opacity: .6;
+    transition: .2s ease-out;
+}
+
+.navlogo{
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+}
+
+#logocont{
+    box-sizing: border-box;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+.logoimgcont{
+    height: 40px;
+    width: fit-content;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+
+.logoimgcont img{
+    width: 47px;
+}
+
+.logotxt{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signup{
+    width: 45%;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#signup2{
+    width: 55%;
+    background-color: #3746cf;
+    color: white;
+}
+
+.heroSection nav{
+    width: 90%;    
+    height: 70px;
+    position: absolute;
+    top: 40px;
+    display: flex;
+}
+
+
+
+nav a{
+    color: black ;
+    text-decoration: none;
+}
+
+.videolink{
+    display: flex;
+    height: 45px;
+    width: fit-content;
+    align-items: center;
+}
+
+.videolink p{
+    width: 150px;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 1.2;
+}
+
+.imgcont{
+    height: 45px;
+    width: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+
+.imgcont img{
+    width: 10px;
+    height: 10px;
+}
+
+.herotxt{
+    font-family: "Montserrat";
+    font-size: 72px;
+    font-weight: 500;
+    width: 180px;
+    margin: 20px 0px;
+}
+
+.herosmalltxt{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 450;
+    margin-bottom: 25px;
+}
+
+.subscribecont{
+    width: 330px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 7px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.subscribecont input{
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.subscribecont input:focus{
+    border: none;
+    outline: none;
+}
+
+.subscribecont button{
+    height: 100%;
+    width: 35%;
+    border: none;
+    border-radius:50px;
+    color: white;
+    background-color: #3746cf;
+}
+
+.partners{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.partners p{
+    width: 200px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logosCont{
+    display: flex;
+    width: 1000px;
+}
+
+.logosCont div{
+    width: 160px;
+    height: 60px;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+.banner{
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subimgcont{
+    display: flex;
+}
+
+.subimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #3746cf;
+}
+
+#subimg2{
+    background: url(./Bright\ color\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerside1 p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.bannerside2{
+    width: 55%;
+}
+
+.bannertxt{
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+.bannerside2 button{
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+#button1{
+    background-color: #3746cf;
+    color: white;border: none;
+    outline: none;
+}
+
+.banner hr{
+    margin: 30px 0px;
+}
+
+.subtxt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tagcont    {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff
+}
+
+.rectangle{
+    width: fit-content;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+
+#tag1{
+    position: absolute;
+    top: 430px;
+    left: 1020px;
+}
+
+#tag2{
+    position: absolute;
+    top: 430px;
+    left: 700px;
+}
+
+#tag3{
+    position: absolute;
+    top: 580px;
+    left: 930px;
+}
+
+.advert{
+    height: 130px;
+    width: 280px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 30px;
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    border-radius: 50px;
+}
+
+.adverimgcont{
+    width: 30%;
+    height: 100px;
+}
+
+.adverimgcont img{
+    width: 100px;
+    border-radius: 50%;    
+}
+
+.advertxtcont{
+    margin-left: 30px;
+}
+
+.advertxtcont h4{
+    margin: 0px;
+    font-weight: 800;
+}
+
+.advertxtcont p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.indicatorcont{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicatorcont div{
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #3746cf;
+    opacity: .3;
+}
+
+.indicatorcont small{
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+#selected{
+    opacity: 1;
+}
+
+.subimg{
+    box-sizing: border-box;
+    padding: 25px 30px;
+    color: #ffffffe8;
+}
+
+.subimg h4{
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.subimg p{
+    font-size: 13px;
+    font-weight: normal;
+    margin: 15px 0px;
+}
+
+.subimg img{
+    width: 40px;
+    border-radius: 40px;
+}
+
+#moveBack{
+    margin-left: -10px;
+}
